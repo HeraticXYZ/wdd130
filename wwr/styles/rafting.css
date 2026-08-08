@@ -10,7 +10,6 @@ header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .navigation {
@@ -29,7 +28,7 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  width: auto;
   margin: 0 auto;
 }
 
